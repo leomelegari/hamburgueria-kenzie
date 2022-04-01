@@ -1,0 +1,30 @@
+.all-products {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  overflow-x: scroll;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .all-products {
+    overflow: unset;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+  }
+}
+
+@media (min-width: 1024px) {
+  .all-products {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .all-products {
+    margin: 0;
+  }
+}
+
